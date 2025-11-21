@@ -1,0 +1,14 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.yash_gadgil</groupId>
+    <artifactId>tradingbot-parent</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>tradingbot-app</module>
+        <module>tradingbot-core</module>
+        <module>alpaca-api</module>
+    </modules>
+</project>
