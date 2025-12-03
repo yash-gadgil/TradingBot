@@ -1,4 +1,11 @@
 package com.trading_bot.account;
 
-public interface AccountDataProvider {
+import java.util.Collection;
+
+public interface AccountDataProvider< A > {
+
+    Account< A > getLatestAccountInfo(A accountID);
+
+    Collection< Account< A > > getLatestAccountInfo();
+
 }
