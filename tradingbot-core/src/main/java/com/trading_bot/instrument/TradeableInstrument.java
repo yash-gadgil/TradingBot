@@ -1,4 +1,9 @@
 package com.trading_bot.instrument;
 
-public class TradeableInstrument {
-}
+public record TradeableInstrument< I > (
+        String instrument,
+        String description,
+        I instrumentId,
+        double pip
+) {}
+
